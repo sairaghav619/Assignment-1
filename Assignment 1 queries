@@ -23,7 +23,7 @@ ORDER BY DeptName;
 
 Question 4:Select the details of the employee who work either for department E-104 or E-102.
 SELECT * FROM Employee
-WHERE Department='E-104' OR Department='E-102'
+WHERE Department='E-104' OR Department='E-102';
 
 Question 5: Select the detail of employee whose email Id is in gmail.
 SELECT * FROM Employee 
@@ -31,8 +31,9 @@ WHERE EmailID LIKE '%@gmail.com';
 
 Question 6: What is total salary that is paid to permanent employees
 SELECT SUM(Salary) AS Salary FROM EmpSalary
-WHERE IsPermanent='Yes'
+WHERE IsPermanent='Yes';
 
 Question 7: select the name of the employee whose name's 3rd charactor is 'h'
 SELECT EmpName AS Name FROM Employee
-WHERE EmpName='__h%'
+WHERE EmpName='__h%';
+
