@@ -37,3 +37,9 @@ Question 7: select the name of the employee whose name's 3rd charactor is 'h'
 SELECT EmpName AS Name FROM Employee
 WHERE EmpName='__h%';
 
+Question 8 and 9: Not quiet clear about these questions. Have some doubts.
+
+Question 10: Difference between Left Outer Join vs Full Outer Join
+Left Outer Join: It returns all the rows from the left table and when no matching rows exist on the right table the values will return as NULL.
+Full Outer Join: It is basically a union of both Left join and Right join. It fetches rows from both the tables, and all the unmatched rows will return NULL vales.
+
